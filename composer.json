@@ -1,0 +1,36 @@
+{
+    "name": "aldemeery/bulksms-notification-channel",
+    "description": "BulkSMS notification channel for laravel.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "notifications", "bulksms"],
+    "authors": [
+        {
+            "name": "Osama Aldemeery",
+            "email": "aldemeery@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/contracts": "^5.5",
+        "illuminate/notifications": "^5.5",
+        "illuminate/support": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aldemeery\\BulkSMS\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aldemeery\\BulkSMS\\BulkSMSChannelServiceProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+}
