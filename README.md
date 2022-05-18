@@ -8,9 +8,20 @@
 ## Installation
 This package requires `php 7.0` or above, and works with Laravel `5.5` or above.
 
-Open the comman line in your project root directory and enter:
-```bash
-composer require aldemeery/bulksms-notification-channel
+In your composer.json file in your project, add repository:
+```json
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hjelseth-computers/bulksms-notification-channel.git"
+        },
+        ...
+    ],
+```
+
+Under require in your composer.json file:
+```json
+    "hjelseth-computers/bulksms-notification-channel": "^v1.2",
 ```
 
 The service provider will automatically be registered. Or you may manually add the service provider in your `config/app.php` file:
