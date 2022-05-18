@@ -1,5 +1,5 @@
 {
-    "name": "aldemeery/bulksms-notification-channel",
+    "name": "hjelseth-computers/bulksms-notification-channel",
     "description": "BulkSMS notification channel for laravel.",
     "type": "library",
     "license": "MIT",
